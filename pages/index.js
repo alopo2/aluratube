@@ -9,7 +9,6 @@ function HomePage() {
 
   return (
     <>
-
       <div style={{
         display: "flex",
         flexDirection: "column",
@@ -28,8 +27,7 @@ function HomePage() {
 export default HomePage
 
 const StyledHeader = styled.div`
-
-    background-color: ${({ theme }) => theme.backgroundLevel1}
+    background-color: ${({ theme }) => theme.backgroundLevel1};
     img {
         width: 80px;
         height: 80px;
